@@ -1,4 +1,4 @@
-texto = 'Desafio 033'
+texto = 'Desafio 034'
 print('{:=^30}'.format(texto))
 
 salario = float(input('Digite o valor do salário: '))

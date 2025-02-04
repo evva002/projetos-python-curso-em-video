@@ -1,4 +1,4 @@
-texto = 'Desafio 034'
+texto = 'Desafio 035'
 print('{:=^30}'.format(texto))
 
 triangulo1 = float(input('Digite o valor do primeiro triângulo: '))
