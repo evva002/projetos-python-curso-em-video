@@ -1,5 +1,6 @@
 texto = 'Desafio 004'
 print('{:=^30}'.format(texto))
+
 algo = input('Digite algo: ')
 print('O tipo primitivo desse valor é: {}'.format(type(algo)))
 print('É um número? {}'.format(algo.isnumeric()))

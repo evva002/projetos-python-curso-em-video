@@ -1,6 +1,8 @@
 import math
+
 texto = 'Desafio 018'
 print('{:=^30}'.format(texto))
+
 angulo_graus = float(input('Digite o ângulo desejado: '))
 seno_angulo = math.sin(math.radians(angulo_graus))
 coseno_angulo = math.cos(math.radians(angulo_graus))

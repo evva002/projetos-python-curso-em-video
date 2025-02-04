@@ -1,4 +1,6 @@
 texto = 'Desafio 022'
+print('{:=^30}'.format(texto))
+
 nome = input('Digite seu nome completo: ')
 print('Nome upper: nome.upper()')
 print('Nome lower: nome.lower()')

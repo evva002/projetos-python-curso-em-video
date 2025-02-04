@@ -1,4 +1,6 @@
 texto = 'Desafio 023'
+print('{:=^30}'.format(texto))
+
 num = input('Digite um número de 0 a 9999: ')
 
 if len(num) == 4:
