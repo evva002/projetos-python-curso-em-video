@@ -9,3 +9,5 @@ if triangulo1 + triangulo2 > triangulo3 and triangulo1 + triangulo3 > triangulo2
     print('Os valores das retas podem formar um triângulo!')
 else:
     print('Os valores das retas >>> NÃO <<< podem formar um triângulo!')
+
+input("Pressione <enter> para encerrar!")

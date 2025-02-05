@@ -8,3 +8,5 @@ O valor total da viagem foi de: R${distancia_viagem * 0.50}""")
 else:
     print(f""""Valor por cada km percorrido é R$0,45 centavos.
 O valor total da viagem foi de: R${distancia_viagem * 0.45}""")
+    
+input("Pressione <enter> para encerrar!")

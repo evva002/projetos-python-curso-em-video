@@ -25,3 +25,5 @@ else:
         print(f'O menor número é o {num2}')
     else:
         print(f'O menor número é o {num1}')
+
+input("Pressione <enter> para encerrar!")

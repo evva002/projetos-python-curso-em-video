@@ -9,3 +9,5 @@ if velocidade >= 80:
 o valor da sua multa é R${valor_multa}""")
 else:
     print('Você estava dentro da vocidade permitida de 80km/h')
+
+input("Pressione <enter> para encerrar!")

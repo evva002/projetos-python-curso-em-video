@@ -10,3 +10,5 @@ if numero_usuario == numero_random:
     print('Parabéns, você acertou!')
 else:
     print('Poxa, você errou :/')
+
+input("Pressione <enter> para encerrar!")

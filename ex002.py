@@ -3,3 +3,5 @@ print('{:=^30}'.format(texto))
 
 nome = input('Digite seu nome: ')
 print('É um prazer te conhecer, {}!'.format(nome))
+
+input("Pressione <enter> para encerrar!")

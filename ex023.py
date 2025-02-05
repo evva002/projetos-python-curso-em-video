@@ -42,3 +42,5 @@ else:
     print(f'Dezena: {num_dezena}')
     print(f'Centena: {num_centena}')
     print(f'Milhar: {num_milhar}')
+
+input("Pressione <enter> para encerrar!")

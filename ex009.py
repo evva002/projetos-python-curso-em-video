@@ -7,5 +7,4 @@ for contador in range(1, 11):
     print('{} X {} = {}'.format(num, contador, num * contador))
     contador += 1
 
-
-    
+input("Pressione <enter> para encerrar!")   

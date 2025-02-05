@@ -6,3 +6,4 @@ num2 = int(input('Digite o segundo número: '))
 soma = num1 + num2
 print('A soma entre {} e {} é: {}'.format(num1, num2, soma))
 
+input("Pressione <enter> para encerrar!")

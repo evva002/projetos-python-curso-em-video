@@ -9,3 +9,5 @@ pygame.mixer.music.play()
 
 input("Pressione Enter para parar...")
 pygame.mixer.music.stop()
+
+input("Pressione <enter> para encerrar!")
