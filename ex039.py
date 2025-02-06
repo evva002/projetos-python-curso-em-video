@@ -17,3 +17,5 @@ else:
     print(f'Você possui {idade} anos')
     print(f'Seu alistamento foi no ano de {ano_nascimento + 18}.')
     print(f'Seu alistamento foi há {idade - 18} anos.')
+
+input("Pressione <enter> para encerrar!")

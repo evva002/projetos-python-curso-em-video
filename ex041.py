@@ -23,4 +23,5 @@ elif idade <= 20:
 else:
     print(f'O atleta possui {idade} anos.')
     print('Classificação: Master')
-    
+
+input("Pressione <enter> para encerrar!")   

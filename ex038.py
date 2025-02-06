@@ -10,3 +10,5 @@ elif num2 > num1:
     print(f'O segundo valor é maior: {num2:.2f}')
 else:
     print(f'Não existe valor maior, os dois números são iguais: {num1:.2f} e {num2:.2f}')
+
+input("Pressione <enter> para encerrar!")

@@ -11,3 +11,5 @@ elif media >= 5 and media < 7:
     print(f'Recuperação! sua média foi {media}')
 else:
     print(f'Reprovado! sua média foi {media}')
+
+input("Pressione <enter> para encerrar!")
