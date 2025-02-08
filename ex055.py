@@ -15,3 +15,5 @@ for c in range(1, 6):
         maior_peso = peso
         
 print(f'O maior peso foi {maior_peso:.2f}KG e o menor peso foi {menor_peso:.2f}KG')
+
+input("Pressione <enter> para encerrar!")

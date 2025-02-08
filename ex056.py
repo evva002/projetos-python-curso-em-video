@@ -25,3 +25,5 @@ media_idade = media_idade / 4
 print(f'a média de idade do grupo foi de: {media_idade:.2f} anos')
 print(f'O nome do homem mais velho é: {homem_mais_velho}')
 print(f'O número de mulheres com menos de 20 anos foi: {mulheres_20}')
+
+input("Pressione <enter> para encerrar!")
