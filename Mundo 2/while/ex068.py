@@ -6,9 +6,7 @@ print('{:=^30}'.format(texto))
 vitorias_jogador = 0
 vitorias_maquina = 0
 
-while True:
-    if vitorias_maquina == 1:
-        break
+while vitorias_maquina == 0:
 
     print('-=' * 10)
     print('JOGO DO PAR OU ÍMPAR')
