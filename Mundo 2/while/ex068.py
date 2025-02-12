@@ -39,7 +39,6 @@ Total de {soma} e deu {resultado}""")
             vitorias_maquina += 1
 
     elif escolha_jogador == 'I':
-        resultado = 'ímpar'
         soma = numero_jogador + numero_maquina
         
         #MÁQUINA VENCE COM PAR
@@ -67,4 +66,5 @@ Total de {soma} e deu {resultado}""")
 print('-=' * 10)
 print(f'Você ganhou um total de {vitorias_jogador} vezes.')
 print('-=' * 10)
+
 input("Pressione <enter> para encerrar!")  
