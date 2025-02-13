@@ -65,4 +65,4 @@ print('-=' * 10)
 print(f'Você ganhou um total de {vitorias_jogador} vezes.')
 print('-=' * 10)
 
-input("Pressione <enter> para encerrar!")  
+input("Pressione <enter> para encerrar!")
