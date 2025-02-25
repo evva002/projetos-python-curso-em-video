@@ -7,7 +7,13 @@ for c in range(5):
     numeros.append(int(input(f'Digite o {c + 1}º número: ')))
 
 print(f'A lista criada foi: {numeros}')
-print(f'O maior número digite é {max(numeros)} e sua posição é a {numeros.index(max(numeros)) + 1}ª')
-print(f'O menor número digite é {min(numeros)} e sua posição é a {numeros.index(min(numeros)) + 1}ª')
+print(f'O maior número digite é {max(numeros)} e suas posições são: ', end='')
+for c in range(5):
+    if max(numeros) == numeros[c]:
+        print(f'...{c + 1}', end='')
+print(f'\nO menor número digite é {min(numeros)} e suas posições são: ', end='')
+for c in range(5):
+    if min(numeros) == numeros[c]:
+        print(f'...{c + 1}', end='')
 
-input("Pressione <enter> para encerrar!")
+input("\nPressione <enter> para encerrar!")
