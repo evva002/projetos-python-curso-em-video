@@ -12,7 +12,7 @@ def voto(ano_nascimento):
         print(f'Você possui {idade} anos: ', end='')
         situação = 'VOTO OBRIGATÓRIO'
         return situação
-    elif idade >= 65:
+    elif idade >= 65 or 18 > idade >= 16:
         print(f'Você possui {idade} anos: ', end='')
         situação = 'VOTO OPCIONAL'
         return situação

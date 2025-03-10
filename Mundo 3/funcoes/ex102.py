@@ -21,3 +21,5 @@ def fatorial(numero, mostrar=False):
     print(fatorial_intern)
        
 fatorial(5)
+
+input("Pressione <enter> para encerrar!")
