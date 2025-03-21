@@ -1,9 +1,9 @@
-import moeda
+from uteis import moeda
 
 def titulo(texto):
     print(f'{texto:=^30}')
 
-titulo('Desafio 110')
+titulo('Desafio 110 e 111')
 
 while True:
     print('=' * 30)

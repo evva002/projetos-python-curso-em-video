@@ -1,4 +1,4 @@
-import moeda
+from uteis import moeda
 
 # Contém os exercícios 107, 108 e 109
 

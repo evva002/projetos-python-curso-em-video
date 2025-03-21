@@ -31,12 +31,8 @@ def reduzir(valor, porcentagem, converter=False):
         valor = round(valor, 2)
         return valor
     
-def converterMoeda(valor):
-    valor = round(valor, 2)
-    valor_str = str(valor)
-    valor_str = valor_str.replace('.', ',')
-    valor_convertido_str = 'R$' + valor_str
-    return valor_convertido_str
+def converterMoeda(valor, formatoMoeda='R$'):
+    return f'{formatoMoeda}{valor:.2f}'.replace('.', ',')
 
 def resumo(valor, aumentar_porcentegem, reduzir_porcentagem):
     print('-' * 30)

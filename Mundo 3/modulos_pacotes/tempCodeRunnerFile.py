@@ -1,0 +1,5 @@
+print('=' * 30)
+preco = input('Digite o preço: R$')
+aumentar_porcentagem = input('Quantos % deseja aumentar: ')
+reduzir_porcentagem = input('Quantos % deseja reduzir: ')
+print('=' * 30)
