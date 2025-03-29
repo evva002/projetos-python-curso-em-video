@@ -1,0 +1,8 @@
+Carlos                 25 anos
+Jose                  115 anos
+Maria                  20 anos
+Alex                  235 anos
+Ana                    18 anos
+Luana                  23 anos
+Lia                    30 anos
+Pedro                  35 anos
